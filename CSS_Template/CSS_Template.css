@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+/* Navigation bar setting */
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 15px 0;
+  float: auto;
+  border: solid 1px;
+  background-color: black;
+  
+}
+/* sets the text color on the navigation bar */
+a:link {
+  color: white;
+}
+/* sets the text color to red  once clicked */
+a:visited {
+  color: red;
+}
+/* sets the text color to blue if hovering mouse over text */
+a:hover {
+  color: #06de;
+}
+/* LinkedIn Widget */
+#idLinkedInIcon {
+  border: 5px;
+  background-color: rgb(0, 0 , 0);
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font: bold 35px Arial, Helvetica, sans-serif;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+#idLinkedInIcon:hover {
+  background-color: #06d;
+}
